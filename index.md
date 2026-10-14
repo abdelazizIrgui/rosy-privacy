@@ -19,7 +19,7 @@ The app stores the following **only on your device**:
 - It has **no user account** and no online database. Your profile, periods and logs are never uploaded.
 - It has **no analytics, no advertising and no tracking**.
 - It does **not sell** your data.
-- It does not use your location, contacts, photos or microphone.
+It does not use your location, contacts or microphone. If you choose a profile picture, the app asks for access to your photos; the picture you pick is stored only on your phone and is never uploaded.
 
 ## The chat assistant (optional)
 
@@ -30,6 +30,7 @@ The app has a chat assistant that answers general questions about the menstrual 
 - **Where it goes:** to a small server program run by the developer on Cloudflare, which passes the conversation to Cloudflare's AI service (Workers AI) to write the answer. The developer does not store the conversation. According to Cloudflare's documentation, Cloudflare does not use this content to train its AI models. Cloudflare may keep technical records under its own terms.
 - **Please do not write anything you do not want to share.** Do not write personal identifiers or details that could identify you.
 - The conversation is kept only while the chat screen is open and is not saved on your phone.
+- - **Reporting a reply:** under each assistant reply there is a "Report this reply" button. If you press it and confirm, only the text of that one reply (not your question and not your profile) is sent to the developer to improve the assistant.
 - The assistant gives **general information, not medical advice**.
 
 ## Things you choose to do
